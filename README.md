@@ -53,7 +53,7 @@ print("Sample Binary Stream (First 10):", " ".join(binary_codes[:10]))
 # ===== 5. Visualization =====
 fig, axes = plt.subplots(3, 1, figsize=(10, 10), sharex=True)
 plt.subplots_adjust(hspace=0.4)
-plt.suptitle("NAME : SELSHIYA F\nREG NO : 212224060241",fontsize=12, fontweight='bold')
+plt.suptitle("EXP-3:PULSE CODE MODULATION\n NAME : VISMAYA.V F\nREG NO : 212224060310",fontsize=12, fontweight='bold')
 
 # Plot 1: Sampling
 axes[0].plot(t_analog, analog_signal, label="Analog Signal", color='gray', alpha=0.5)
@@ -68,7 +68,7 @@ axes[1].plot(t_analog, analog_signal, 'k--', alpha=0.2)
 axes[1].step(t_samp, quantized_signal, where='mid', color='C1', label="Quantized Signal")
 # Draw horizontal lines for quantization levels
 for level in np.linspace(v_min, v_max, num_levels + 1):
-    axes[1].axhline(y=level, color='red', linestyle=':', alpha=0.2)
+    axes[1].axhline(y=level, color='black', linestyle=':', alpha=0.2)
 axes[1].set_title(f"Step 2: Quantization ({num_levels} Levels)")
 axes[1].set_ylabel("Amplitude")
 axes[1].legend(loc='upper right')

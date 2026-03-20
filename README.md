@@ -1,7 +1,7 @@
 # NAME:VISMAYA.V
 # REGISTER NO:212224060310
 
-# EXP-3 Pulse-Code-Modulation AND Delta Modulation
+# EXP-3 Pulse-Code-Modulation And Delta Modulation
 # Aim
 Write a simple Python program for the modulation and demodulation of PCM, and DM.
 # Tools required
